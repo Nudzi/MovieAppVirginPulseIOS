@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		7C5B1EAE2530CA7800EF6D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1EAD2530CA7800EF6D43 /* AppDelegate.swift */; };
 		7C5B1EB02530CA7800EF6D43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1EAF2530CA7800EF6D43 /* SceneDelegate.swift */; };
-		7C5B1EB22530CA7800EF6D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1EB12530CA7800EF6D43 /* ViewController.swift */; };
+		7C5B1EB22530CA7800EF6D43 /* APITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1EB12530CA7800EF6D43 /* APITableViewController.swift */; };
 		7C5B1EB52530CA7800EF6D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B1EB32530CA7800EF6D43 /* Main.storyboard */; };
-		7C5B1EB82530CA7800EF6D43 /* Movie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1EB62530CA7800EF6D43 /* Movie.xcdatamodeld */; };
+		7C5B1EB82530CA7800EF6D43 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1EB62530CA7800EF6D43 /* CoreData.xcdatamodeld */; };
 		7C5B1EBA2530CA7800EF6D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B1EB92530CA7800EF6D43 /* Assets.xcassets */; };
 		7C5B1EBD2530CA7800EF6D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B1EBB2530CA7800EF6D43 /* LaunchScreen.storyboard */; };
+		7C5B1ECA2530CB6300EF6D43 /* SearchTableViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1EC92530CB6300EF6D43 /* SearchTableViewContoller.swift */; };
+		7C5B1ED02530CB9100EF6D43 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1ECF2530CB9100EF6D43 /* API.swift */; };
+		7C5B1ED32530CBB400EF6D43 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1ED22530CBB400EF6D43 /* APIRequest.swift */; };
+		7C5B1ED82530CBE600EF6D43 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1ED72530CBE600EF6D43 /* MyCustomCell.swift */; };
+		7C5B1EDC2530CBF600EF6D43 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B1EDB2530CBF600EF6D43 /* SearchTableViewCell.swift */; };
+		7C5B1EE02530CC0F00EF6D43 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B1EDF2530CC0F00EF6D43 /* MyCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C5B1EAA2530CA7800EF6D43 /* Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5B1EAD2530CA7800EF6D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C5B1EAF2530CA7800EF6D43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C5B1EB12530CA7800EF6D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C5B1EB12530CA7800EF6D43 /* APITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITableViewController.swift; sourceTree = "<group>"; };
 		7C5B1EB42530CA7800EF6D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C5B1EB72530CA7800EF6D43 /* Movie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Movie.xcdatamodel; sourceTree = "<group>"; };
 		7C5B1EB92530CA7800EF6D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5B1EBC2530CA7800EF6D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C5B1EBE2530CA7800EF6D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C5B1EC92530CB6300EF6D43 /* SearchTableViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewContoller.swift; sourceTree = "<group>"; };
+		7C5B1ECF2530CB9100EF6D43 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7C5B1ED22530CBB400EF6D43 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		7C5B1ED72530CBE600EF6D43 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		7C5B1EDB2530CBF600EF6D43 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		7C5B1EDF2530CC0F00EF6D43 /* MyCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,78 @@
 		7C5B1EAC2530CA7800EF6D43 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
-				7C5B1EAD2530CA7800EF6D43 /* AppDelegate.swift */,
-				7C5B1EAF2530CA7800EF6D43 /* SceneDelegate.swift */,
-				7C5B1EB12530CA7800EF6D43 /* ViewController.swift */,
-				7C5B1EB32530CA7800EF6D43 /* Main.storyboard */,
-				7C5B1EB92530CA7800EF6D43 /* Assets.xcassets */,
-				7C5B1EBB2530CA7800EF6D43 /* LaunchScreen.storyboard */,
+				7C5B1EE42530CCB200EF6D43 /* DataModel */,
+				7C5B1ED62530CBD400EF6D43 /* MyCustomCell */,
+				7C5B1EC62530CAE800EF6D43 /* Contollers */,
+				7C5B1EC72530CAF400EF6D43 /* Delegate */,
+				7C5B1ECE2530CB7600EF6D43 /* View */,
+				7C5B1EE22530CC4800EF6D43 /* Assets */,
 				7C5B1EBE2530CA7800EF6D43 /* Info.plist */,
-				7C5B1EB62530CA7800EF6D43 /* Movie.xcdatamodeld */,
+				7C5B1ED52530CBC400EF6D43 /* APIRequest */,
 			);
 			path = Movie;
+			sourceTree = "<group>";
+		};
+		7C5B1EC62530CAE800EF6D43 /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B1EB12530CA7800EF6D43 /* APITableViewController.swift */,
+				7C5B1EC92530CB6300EF6D43 /* SearchTableViewContoller.swift */,
+			);
+			name = Contollers;
+			sourceTree = "<group>";
+		};
+		7C5B1EC72530CAF400EF6D43 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B1EAD2530CA7800EF6D43 /* AppDelegate.swift */,
+				7C5B1EAF2530CA7800EF6D43 /* SceneDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		7C5B1ECE2530CB7600EF6D43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B1EB32530CA7800EF6D43 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7C5B1ED52530CBC400EF6D43 /* APIRequest */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B1ECF2530CB9100EF6D43 /* API.swift */,
+				7C5B1ED22530CBB400EF6D43 /* APIRequest.swift */,
+			);
+			name = APIRequest;
+			sourceTree = "<group>";
+		};
+		7C5B1ED62530CBD400EF6D43 /* MyCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B1ED72530CBE600EF6D43 /* MyCustomCell.swift */,
+				7C5B1EDB2530CBF600EF6D43 /* SearchTableViewCell.swift */,
+				7C5B1EDF2530CC0F00EF6D43 /* MyCustomCell.xib */,
+			);
+			name = MyCustomCell;
+			sourceTree = "<group>";
+		};
+		7C5B1EE22530CC4800EF6D43 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B1EB92530CA7800EF6D43 /* Assets.xcassets */,
+				7C5B1EBB2530CA7800EF6D43 /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		7C5B1EE42530CCB200EF6D43 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B1EB62530CA7800EF6D43 /* CoreData.xcdatamodeld */,
+			);
+			name = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +203,7 @@
 			files = (
 				7C5B1EBD2530CA7800EF6D43 /* LaunchScreen.storyboard in Resources */,
 				7C5B1EBA2530CA7800EF6D43 /* Assets.xcassets in Resources */,
+				7C5B1EE02530CC0F00EF6D43 /* MyCustomCell.xib in Resources */,
 				7C5B1EB52530CA7800EF6D43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,10 +215,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C5B1EB22530CA7800EF6D43 /* ViewController.swift in Sources */,
+				7C5B1EB22530CA7800EF6D43 /* APITableViewController.swift in Sources */,
+				7C5B1ED32530CBB400EF6D43 /* APIRequest.swift in Sources */,
 				7C5B1EAE2530CA7800EF6D43 /* AppDelegate.swift in Sources */,
-				7C5B1EB82530CA7800EF6D43 /* Movie.xcdatamodeld in Sources */,
+				7C5B1EB82530CA7800EF6D43 /* CoreData.xcdatamodeld in Sources */,
 				7C5B1EB02530CA7800EF6D43 /* SceneDelegate.swift in Sources */,
+				7C5B1ED02530CB9100EF6D43 /* API.swift in Sources */,
+				7C5B1ED82530CBE600EF6D43 /* MyCustomCell.swift in Sources */,
+				7C5B1EDC2530CBF600EF6D43 /* SearchTableViewCell.swift in Sources */,
+				7C5B1ECA2530CB6300EF6D43 /* SearchTableViewContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,6 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Movie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +391,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Movie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,13 +427,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7C5B1EB62530CA7800EF6D43 /* Movie.xcdatamodeld */ = {
+		7C5B1EB62530CA7800EF6D43 /* CoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				7C5B1EB72530CA7800EF6D43 /* Movie.xcdatamodel */,
 			);
 			currentVersion = 7C5B1EB72530CA7800EF6D43 /* Movie.xcdatamodel */;
-			path = Movie.xcdatamodeld;
+			path = CoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
